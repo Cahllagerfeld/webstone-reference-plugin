@@ -1,6 +1,9 @@
 {
 	"name": "webstone-plugin-web-rest",
 	"version": "0.0.1",
+	"publishConfig": {
+		"directory": "./package"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",

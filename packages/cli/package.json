@@ -1,5 +1,5 @@
 {
-  "name": "webstone-plugin-web-rest",
+  "name": "webstone-plugin-cli-rest",
   "version": "0.0.1",
   "description": "",
   "scripts": {

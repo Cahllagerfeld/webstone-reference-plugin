@@ -8,7 +8,6 @@
     "clean": "pnpm --recursive --parallel clean",
     "dev": "pnpm --recursive --parallel dev",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install",
     "release": "changeset publish"
   },
   "keywords": [
@@ -19,6 +18,6 @@
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
-    "husky": "^8.0.1"
+    "rimraf": "^3.0.2"
   }
 }
