@@ -10,6 +10,7 @@
     "skipLibCheck": true,
     "declaration": true,
     "moduleResolution": "Node",
+    "rootDir": "src",
     "declarationDir": "./build/types"
   },
   "include": ["src/**/*.ts"],
