@@ -6,3 +6,4 @@ yarn.lock
 packages/**/dist
 packages/**/build
 tests/e2e/test-results
+dist
