@@ -11,6 +11,20 @@
     "preinstall": "npx only-allow pnpm",
     "release": "changeset publish"
   },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/web/index.d.ts",
+      "svelte": "./dist/web/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
+  "svelte": "./dist/web/index.js",
+  "types": "./dist/web/index.d.ts",
   "keywords": [
     "webstone",
     "plugin"
