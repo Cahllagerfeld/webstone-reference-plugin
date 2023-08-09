@@ -10,6 +10,7 @@ export default defineConfig([
 		clean: true,
 		treeshake: true,
 		tsconfig: './tsconfig.json',
-		bundle: false
+		bundle: false,
+		minify: true
 	}
 ]);
