@@ -1,6 +1,5 @@
 import { defineConfig, build } from 'tsup';
 import jetpack from 'fs-jetpack';
-import { watch } from 'fs';
 
 /**
  * @type {"build" | "dev"}
