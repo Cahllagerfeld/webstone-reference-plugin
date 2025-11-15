@@ -21,8 +21,8 @@ importers:
         specifier: ^2.4.1
         version: 2.4.1
       gluegun:
-        specifier: ^5.1.2
-        version: 5.1.2
+        specifier: ^5.2.0
+        version: 5.2.0
       npm-run-all2:
         specifier: ^5.0.0
         version: 5.0.2
@@ -723,8 +723,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  ejs@3.1.6:
-    resolution: {integrity: sha512-9lt9Zse4hPucPkoP7FHDF0LQAlGyF9JVpnClFLFH3aSSbxmyoqINRpp/9wePWJTUl4KOQwRL72Iw3InHPDkoGw==}
+  ejs@3.1.8:
+    resolution: {integrity: sha512-/sXZeMlhS0ArkfX2Aw780gJzXSMPnKjtspYZv+f3NiKLlubezAHDU5+9xz6gd3/NhG3txQCo6xlglmTS+oTGEQ==}
     engines: {node: '>=0.10.0'}
     hasBin: true
 
@@ -972,8 +972,8 @@ packages:
   globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
 
-  gluegun@5.1.2:
-    resolution: {integrity: sha512-Cwx/8S8Z4YQg07a6AFsaGnnnmd8mN17414NcPS3OoDtZRwxgsvwRNJNg69niD6fDa8oNwslCG0xH7rEpRNNE/g==}
+  gluegun@5.2.0:
+    resolution: {integrity: sha512-jSUM5xUy2ztYFQANne17OUm/oAd7qSX7EBksS9bQDt9UvLPqcEkeWUebmaposb8Tx7eTTD8uJVWGRe6PYSsYkg==}
     hasBin: true
 
   graceful-fs@4.2.11:
@@ -2395,7 +2395,7 @@ snapshots:
       eslint: 8.31.0
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0(eslint@8.31.0)
-      semver: 7.3.8
+      semver: 7.7.3
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -2651,7 +2651,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  ejs@3.1.6:
+  ejs@3.1.8:
     dependencies:
       jake: 10.8.5
 
@@ -2955,7 +2955,7 @@ snapshots:
 
   globrex@0.1.2: {}
 
-  gluegun@5.1.2:
+  gluegun@5.2.0:
     dependencies:
       apisauce: 2.1.6
       app-module-path: 2.2.0
@@ -2963,7 +2963,7 @@ snapshots:
       colors: 1.4.0
       cosmiconfig: 7.0.1
       cross-spawn: 7.0.3
-      ejs: 3.1.6
+      ejs: 3.1.8
       enquirer: 2.3.6
       execa: 5.1.1
       fs-jetpack: 4.3.1
