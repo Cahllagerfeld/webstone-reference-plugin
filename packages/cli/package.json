@@ -28,7 +28,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"copyfiles": "^2.4.1",
-		"gluegun": "^5.1.2",
+		"gluegun": "^5.2.0",
 		"npm-run-all2": "^5.0.0",
 		"npm-watch": "^0.13.0",
 		"prettier": "^2.6.2",
