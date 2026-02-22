@@ -60,8 +60,8 @@ importers:
         specifier: 8.31.0
         version: 8.31.0
       eslint-config-prettier:
-        specifier: 8.6.0
-        version: 8.6.0(eslint@8.31.0)
+        specifier: 10.1.8
+        version: 10.1.8(eslint@8.31.0)
       eslint-plugin-svelte3:
         specifier: 4.0.0
         version: 4.0.0(eslint@8.31.0)(svelte@3.55.0)
@@ -744,8 +744,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-prettier@8.6.0:
-    resolution: {integrity: sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==}
+  eslint-config-prettier@10.1.8:
+    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -2636,7 +2636,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-prettier@8.6.0(eslint@8.31.0):
+  eslint-config-prettier@10.1.8(eslint@8.31.0):
     dependencies:
       eslint: 8.31.0
 
